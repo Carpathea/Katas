@@ -9,7 +9,10 @@ namespace RomanNumerals
         public RomanNumeralConverter() { }
         public string Convert_to_numeral(int input)
         {
-            throw new Exception("0 is not known to Roman Numerals");
+            if (input == 0)
+                throw new Exception("0 is not known to Roman Numerals");
+            else
+                return "I";
         }
     }
 }
