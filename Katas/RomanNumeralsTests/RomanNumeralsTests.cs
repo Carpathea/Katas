@@ -23,5 +23,12 @@ namespace RomanNumeralsTests
             Assert.AreEqual(nonZeroNumeral, "I");
         }
 
+        [Test]
+        public void Should_create_cardinals_dictionary()
+        {
+            var converter = new RomanNumeralConverter();
+            Assert.IsTrue(converter.numeralCardinals != null);
+        }
+        
     }
 }
