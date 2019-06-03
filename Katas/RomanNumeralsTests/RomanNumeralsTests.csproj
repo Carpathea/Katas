@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Katas\RomanNumerals.csproj" />
+    <ProjectReference Include="..\RomanNumerals\RomanNumerals.csproj" />
   </ItemGroup>
 
 </Project>
