@@ -18,17 +18,22 @@ namespace RomanNumeralsTests
         }
 
         [Test]
-        public void Should_recognize_non_zero()
+        public void Should_return_I_numeral_with_1_input()
         {
             var nonZeroNumeral = converter.Convert_to_numeral(1);
             Assert.AreEqual(nonZeroNumeral, "I");
-        }
-        
+        }    
         [Test]
         public void Should_return_II_numeral_with_2_input()
         {
-            var one = converter.Convert_to_numeral(2);
-            Assert.AreEqual(one, "II");
+            var two = converter.Convert_to_numeral(2);
+            Assert.AreEqual(two, "II");
+        }
+        [Test]
+        public void Should_return_III_numeral_with_3_input()
+        {
+            var three = converter.Convert_to_numeral(3);
+            Assert.AreEqual(three, "III");
         }
         
     }
