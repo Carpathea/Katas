@@ -14,8 +14,11 @@ namespace RomanNumerals
         {
             if (input == 0)
                 throw new Exception("0 is not known to Roman Numerals");
-            else
+            else if (input == 1)
                 return "I";
+            else
+                return "II";
+
         }
     }
 }

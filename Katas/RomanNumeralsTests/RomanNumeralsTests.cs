@@ -22,7 +22,14 @@ namespace RomanNumeralsTests
         {
             var nonZeroNumeral = converter.Convert_to_numeral(1);
             Assert.AreEqual(nonZeroNumeral, "I");
-        }  
+        }
+        
+        [Test]
+        public void Should_return_II_numeral_with_2_input()
+        {
+            var one = converter.Convert_to_numeral(2);
+            Assert.AreEqual(one, "II");
+        }
         
     }
 }
