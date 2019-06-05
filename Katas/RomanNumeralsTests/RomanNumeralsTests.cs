@@ -22,26 +22,7 @@ namespace RomanNumeralsTests
         {
             var nonZeroNumeral = converter.Convert_to_numeral(1);
             Assert.AreEqual(nonZeroNumeral, "I");
-        }
-
-        [Test]
-        public void Should_create_cardinals_dictionary()
-        {
-            Assert.IsTrue(converter.numeralCardinals != null);
-        }
-
-        [Test]
-        public void Should_add_base_numerals_to_dictionary()
-        {
-            var mockCardinalsDictionary = new Dictionary<int, string>();
-            mockCardinalsDictionary.Add(1, "I");
-            mockCardinalsDictionary.Add(5, "V");
-            mockCardinalsDictionary.Add(10, "X");
-            mockCardinalsDictionary.Add(50, "L");
-            mockCardinalsDictionary.Add(500, "D");
-            mockCardinalsDictionary.Add(1000, "M");
-            CollectionAssert.AreEqual(mockCardinalsDictionary, converter.numeralCardinals);
-        }
+        }  
         
     }
 }
