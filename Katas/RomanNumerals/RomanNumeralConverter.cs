@@ -10,20 +10,23 @@ namespace RomanNumerals
         public RomanNumeralConverter() {
         }
 
-        private static KeyValuePair<int, string> I = new KeyValuePair<int, string>(1, "I");
-
+        private Tuple<int, string>[] digits = {
+        Tuple.Create (1, "I"), Tuple.Create (4, "IV") };
 
         public string Convert_to_numeral(int input)
         {
-          
             if (input == 0)
                 throw new Exception("0 is not known to Roman Numerals");
             else
             {
                 string numeral = "";
-                var mod = input / I.Key;
-                numeral += string.Concat(Enumerable.Repeat(I.Value, mod));
-                return numeral;
+                foreach(var digit in digits.Reverse())
+                {
+                    int div = input / digit.Item1;
+                    numeral += string.Concat(Enumerable.Repeat(digit.Item2, div));
+                    input = input % digit.Item1;
+                }
+                return numeral;                
             }
 
         }

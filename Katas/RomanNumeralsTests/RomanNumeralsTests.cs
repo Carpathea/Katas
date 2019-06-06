@@ -32,7 +32,7 @@ namespace RomanNumeralsTests
         {
             Assert.AreEqual(converter.Convert_to_numeral(3), "III");
         }
-
+        [Test]
         public void Should_return_IV_numeral_with_4_input()
         {
             Assert.AreEqual(converter.Convert_to_numeral(4), "IV");
