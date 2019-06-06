@@ -8,6 +8,7 @@ namespace RomanNumerals_V2Tests
     public class RomanNumerals_V2Tests
     {
         [TestCase(1, "I")]
+        [TestCase(2, "II")]
         public void Should_convert_to_numeral(int number, string expected)
         {
             Assert.That(new RomanNumeralConverter().ConvertToRomanNumeral(number), Is.EqualTo(expected));

@@ -6,7 +6,8 @@ namespace RomanNumerals_V2
     {
         public string ConvertToRomanNumeral(int number)
         {
-            return "I";
+            var result = "I";
+            return result;
         }
     }
 }
