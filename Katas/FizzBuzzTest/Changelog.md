@@ -11,3 +11,5 @@
 *Update: test case for 3 and minimum passing code.
 *Update: test case for 6 and minimum passing code.
 *Update: test case for 9 and minimum passing code.
+*Note: refactoring now due to rule of 3.
+*Update: refactored implimnentation.
