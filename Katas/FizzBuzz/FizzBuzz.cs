@@ -9,6 +9,8 @@ public class FizzBuzz
     {
         if (input == 3)
             return "fizz";
+        else if (input == 6)
+            return "fizz";
         return input.ToString();
     }
 }
