@@ -18,3 +18,5 @@
 *Update: test case for 25 and minimum passing code.
 *Note: refactoring now due to rule of 3.
 *Update: refactored implimnetation
+*Update: test case for 15 and minimum passing code.
+*Note: I am not happy with the jump to put it at the top of the function but i hope any comments will help.
