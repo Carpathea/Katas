@@ -40,6 +40,7 @@ namespace FizzTests
         }
 
         [TestCase(15, "fizz-buzz")]
+        [TestCase(30, "fizz-buzz")]
         public void Shoud_return_fizz_buzz(int input, string expected)
         {
             var result = fizz.Fizzify(input);
