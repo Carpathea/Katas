@@ -7,3 +7,4 @@
 *New: test for case 4 and minimum passing code.
 *Update: refactored test code.
 *Update: refactored implimnetation
+*Update: test case for 3 and minimum passing code.
