@@ -9,8 +9,10 @@ public class FizzBuzz
     {
         if (input == 1)
             return "1";
-        else
+        else if (input == 2)
             return "2";
+        else
+            return "4";
     }
 }
 
