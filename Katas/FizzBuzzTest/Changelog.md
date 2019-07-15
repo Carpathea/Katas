@@ -23,3 +23,4 @@
 *Update: test case for 30 and minimum passing code.
 *Update: added more test cases in the early stages and forgot 20 for buzzes!
 *Update: test case for 45 now passes with minimum code.
+*Update: refactor attempt 1 for all casses but im not happy i might be missuing TPP here or making jumps i shouldnt.
