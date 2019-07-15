@@ -23,6 +23,7 @@ namespace FizzTests
 
         [TestCase(3, "fizz")]
         [TestCase(6, "fizz")]
+        [TestCase(9, "fizz")]
         public void Should_return_fizz(int input, string expected)
         {
             var result = fizz.Fizzify(input);
