@@ -29,5 +29,12 @@ namespace FizzTests
             var result = fizz.Fizzify(input);
             Assert.AreEqual(result, expected);
         }
+
+        [TestCase(5, "buzz")]
+        public void Should_return_buzz(int input, string expected)
+        {
+            var result = fizz.Fizzify(input);
+            Assert.AreEqual(result, expected);
+        }
     }
 }
