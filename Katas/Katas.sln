@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fib", "Fib\Fib.csproj", "{0BA4D37D-D7AB-4B96-A035-F8F265D673A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fib", "Fib\Fib.csproj", "{0BA4D37D-D7AB-4B96-A035-F8F265D673A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibTest", "FibTest\FibTest.csproj", "{B55F0AB8-1F16-4D08-8D8A-0972EBD94CED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibTest", "FibTest\FibTest.csproj", "{B55F0AB8-1F16-4D08-8D8A-0972EBD94CED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
